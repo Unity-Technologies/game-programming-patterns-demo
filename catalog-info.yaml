@@ -1,0 +1,16 @@
+# For more information about the available options please visit: http://go/backstage (VPN required)
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    github.com/project-slug: Unity-Technologies/game-programming-patterns-demo
+  name: game-programming-patterns-demo
+  description: "A repo of small demos that assemble some of the well-known design patterns in Unity development to support the ebook 'Level up your code with game programming patterns'"
+  labels:
+    costcenter: "3075"
+  tags:
+    - planned-public
+spec:
+  type: other
+  lifecycle: experimental
+  owner: unity-technologies/techmarketing
