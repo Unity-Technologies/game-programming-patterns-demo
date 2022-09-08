@@ -1,0 +1,6 @@
+{
+    "name": "#SCRIPTNAME#",
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}

@@ -1,0 +1,23 @@
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+#ROOTNAMESPACEBEGIN#
+namespace DesignPatterns
+{
+    public class #SCRIPTNAME# : MonoBehaviour
+    {
+
+        void Start()
+        {
+            #NOTRIM#
+        }
+
+
+        void Update()
+        {
+            #NOTRIM#
+        }
+    }
+}
+#ROOTNAMESPACEEND#

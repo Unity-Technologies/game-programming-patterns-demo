@@ -1,0 +1,9 @@
+{
+    "name": "#SCRIPTNAME#",
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ]
+}
