@@ -8,7 +8,12 @@ This GitHub repository contains examples, in Unity, of design patterns in action
 # From the advanced e-book that’s written for experienced developers
 These examples are taken from our e-book, [Level up your code with game programming patterns](https://resources.unity.com/games/level-up-your-code-with-game-programming-patterns). This 100-page guide explains the design patterns covered in this demo in more detail, as well as explaining the SOLID programming principles and concepts such as KISS and DRY. 
 
-You can download the e-book [here](https://resources.unity.com/games/level-up-your-code-with-game-programming-patterns). 
+Learn more in our how-to pages available here:<br>
+* [Create modular and maintainable code with the Observer pattern](https://unity.com/how-to/create-modular-and-maintainable-code-observer-pattern)
+* [Develop a modular, flexible codebase with the State programming pattern](https://unity.com/how-to/develop-modular-flexible-codebase-state-programming-pattern)
+* [Use object pooling to boost performance of C# scripts in Unity](https://unity.com/how-to/use-object-pooling-boost-performance-c-scripts-unity)
+
+Or download the full e-book [here](https://resources.unity.com/games/level-up-your-code-with-game-programming-patterns). 
 ![Download our ebook here](https://blog-api.unity.com/sites/default/files/styles/focal_crop_ratio_16_9/public/2022-10/Blog%20Post_1620x900.jpg?imwidth=1920&h=40319811&itok=6Brw5Vd8)
 
 # How to use the game programming patterns guide
