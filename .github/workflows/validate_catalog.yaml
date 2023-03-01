@@ -1,0 +1,22 @@
+
+#This workflow  will automatically validate your catalog-info.yaml
+
+name: Validate Catalog-info.yaml
+on:
+  pull_request:
+    paths:
+      - "catalog-info.yaml"
+  push:
+    paths:
+      - "catalog-info.yaml"
+
+jobs:
+  validate_catalog:
+    runs-on: [self-hosted, Linux, X64]
+    steps:
+      - id: "Checkout"
+        uses: actions/checkout@v2
+
+      - id: "Validate"
+        uses: "RoadieHQ/backstage-entity-validator@v0.3.2"
+
