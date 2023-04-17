@@ -12,9 +12,12 @@ Learn more in our how-to pages available here:<br>
 * [Create modular and maintainable code with the Observer pattern](https://unity.com/how-to/create-modular-and-maintainable-code-observer-pattern)
 * [Develop a modular, flexible codebase with the State programming pattern](https://unity.com/how-to/develop-modular-flexible-codebase-state-programming-pattern)
 * [Use object pooling to boost performance of C# scripts in Unity](https://unity.com/how-to/use-object-pooling-boost-performance-c-scripts-unity)
+* [Build a modular codebase with MVC and MVP programming patterns](https://unity.com/how-to/build-modular-codebase-mvc-and-mvp-programming-patterns)
+* [How to use the factory pattern for object creation at runtime](https://unity.com/how-to/how-use-factory-pattern-object-creation-runtime)
+* [Use the command pattern for flexible and extensible game systems](https://unity.com/how-to/use-command-pattern-flexible-and-extensible-game-systems)
 
 Or download the full e-book [here](https://resources.unity.com/games/level-up-your-code-with-game-programming-patterns). 
-![Download our ebook here](https://blog-api.unity.com/sites/default/files/styles/focal_crop_ratio_16_9/public/2022-10/Blog%20Post_1620x900.jpg?imwidth=1920&h=40319811&itok=6Brw5Vd8)
+![Blog Post_800x450](https://user-images.githubusercontent.com/104561943/232472515-e84afe62-6b54-47e9-b98b-f36e84d2982d.jpg)
 
 # How to use the game programming patterns guide
 Both internal and external Unity development experts contributed to the new e-book, especially Wilmer Lin at [Unity Game Academy](https://github.com/UnityGameAcademy), who made significant contributions, both to the guide and the demo project.
