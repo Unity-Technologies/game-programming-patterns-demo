@@ -17,7 +17,7 @@ namespace DesignPatterns.MVP
         private const int maxHealth = 100;
         private int currentHealth;
 
-        public int CurrentHealth { get => currentHealth; set => currentHealth = value; }
+        public int CurrentHealth { get => currentHealth; }
         public int MinHealth => minHealth;
         public int MaxHealth => maxHealth;
 
