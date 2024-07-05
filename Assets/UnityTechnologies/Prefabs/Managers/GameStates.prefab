@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &783429508441994887
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5157183141251418286}
+  - component: {fileID: 5126391613562050094}
+  - component: {fileID: 2720291067392656154}
+  m_Layer: 0
+  m_Name: GameStates
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5157183141251418286
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783429508441994887}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5126391613562050094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783429508441994887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 208665c6da42af54d8dd79958ee595be, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_PreloadedAssets:
+  - {fileID: 1120931545905121513, guid: 6480f6c01d1831c4f8d36e77a8a807d8, type: 3}
+  - {fileID: 653612099279655886, guid: 74cd5c41a4bee2f488fb529e739ae64a, type: 3}
+  - {fileID: 8056510055896174628, guid: 4fdfb9b1ade3c6b4aa16465f0fd6f239, type: 3}
+  m_SolidMenuShown: {fileID: 11400000, guid: e81c4935bb6d1ef4f85cb6d1f77e1f46, type: 2}
+  m_DesignPatternMenuShown: {fileID: 11400000, guid: cfb102e5bbdef3043baf873c506fc166, type: 2}
+  m_ResourcesMenuShown: {fileID: 11400000, guid: 0c2f64b0a9013284bb6ace757e8a8ec3, type: 2}
+  m_ScreenClosed: {fileID: 11400000, guid: 0792a6b1ac7485541b882d65d5557281, type: 2}
+  m_SolidSceneLoadEvents:
+  - {fileID: 11400000, guid: eb88f2030d7d41947a2ec4fa4fee9e1b, type: 2}
+  - {fileID: 11400000, guid: bfc8389fdb5360d4da25ef319fc17984, type: 2}
+  - {fileID: 11400000, guid: 86549d44b27b95248b8facede4f98d62, type: 2}
+  - {fileID: 11400000, guid: e14899d348c1be240a692c183c79c8c1, type: 2}
+  - {fileID: 11400000, guid: 4bf477caba0626144969364af57ab0ae, type: 2}
+  m_DesignPatternSceneLoadEvents:
+  - {fileID: 11400000, guid: ce837d9e1a9d51748aedb021e4ae610f, type: 2}
+  - {fileID: 11400000, guid: b584eb5762785324b9d7770be8027daf, type: 2}
+  - {fileID: 11400000, guid: 2bebad5952724724996f4c5cf3f0f3ea, type: 2}
+  - {fileID: 11400000, guid: 8573c84d578cc1a4aab3be75871ba6c1, type: 2}
+  - {fileID: 11400000, guid: c5172c123d1996a4a80d44f2a2b86907, type: 2}
+  - {fileID: 11400000, guid: 43f95a16a88b45542887e0a1c2ef220a, type: 2}
+  - {fileID: 11400000, guid: a47630d134d162a42a622b40bb17b8af, type: 2}
+  - {fileID: 11400000, guid: 238078c419a67cf419f3ae55aa874375, type: 2}
+  m_Debug: 0
+--- !u!114 &2720291067392656154
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 783429508441994887}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea56b8c7a755349868431d684f0967fc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Text: "A GameStateManager controls the overall flow of the application using
+    a state machine.\n\r\nUse this class to define how each State will transition
+    to the next. \n\nEach state can\r transition to the next state when receiving
+    an event or reaching a specific condition."

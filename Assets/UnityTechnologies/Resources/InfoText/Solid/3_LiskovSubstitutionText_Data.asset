@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d409ea383417324bafa2ad8119d2992, type: 3}
+  m_Name: 3_LiskovSubstitutionText_Data
+  m_EditorClassIdentifier: 
+  m_Title: Liskov substitution
+  m_TextPages:
+  - "The <b>Liskov substitution principle</b> states that objects of a superclass
+    should be replaceable with objects of its subclasses without affecting the correctness
+    of the program. \r\n\r\nIn simpler terms, if <b>class B</b> is a subclass of
+    <b>class A</b>, substituting A with B should not alter the program's functionality."
+  - 'This principle ensures the compatibility of components within systems. Thus,
+    extending features does not compromise code stability.
+
+
+    Take the <b>PowerUp</b>
+    class as an example to illustrate the principle''s application.
+
+
+    Here, each
+    subclass of PowerUp can be used interchangeably without changing how the power-ups
+    are activated.'
+  - "\rPlayers can interact with these PowerUp objects using the same <b>ApplyEffect</b>
+    method, regardless of PowerUp's specific variant.\r\n\r\nAdding more PowerUps
+    to your game does not affect the Player code.\r\n\r\nThus, adhering to Liskov
+    substitution can also reinforce the open-closed principle.\r"
+  - 'Violations of Liskov substitution occur if a subclass deviates in behavior from
+    its superclass.
+
+
+    Consider the case of <b>UnrefactoredSpeedBoost</b>, which
+    introduces a temporary speed up effect that automatically ends after a certain
+    period.'
+  - "While this logic may work as intended, the unrefactored class introduces a time-based
+    behavior that is not part of the original base class definition. \r\n\r\nThis
+    deviation undermines Liskov subsitution. The UnrefactoredSpeedBoost cannot be
+    used as a direct substitute for other PowerUps due to its unique time-sensitive
+    behavior."
+  - 'The refactored <b>PowerUp</b> complies with Liskov substitution by introducing
+    a concept of duration into the base class. Thus, duration becomes an optional
+    feature for all subclasses.
+
+
+    The refactored subclasses (SpeedBoost, HealthBoost,
+    and PowerBoost) can then be used interchangeably with the base class, adhering
+    to Liskov Substitution.'
+  m_CurrentIndex: 0
+  m_AdditionalText: 'Use the <b>WASD</b> keys to move the player. '
+  m_FooterText: 'Press <b>R</b> to reset the scene. '

@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d409ea383417324bafa2ad8119d2992, type: 3}
+  m_Name: 4_InterfaceSegregationText_Data
+  m_EditorClassIdentifier: 
+  m_Title: Interface segregation
+  m_TextPages:
+  - 'The <b>interface segregation principle</b> states that no client should be forced
+    to depend on methods it does not use. It promotes the splitting of large interfaces
+    into smaller, more specific ones.
+
+
+    As your project grows in complexity,
+    it often involves a variety of different systems and components interacting with
+    each other. Interface segregation streamlines these interactions.'
+  - 'The idea is to create specific interfaces for each distinct functionality. For
+    instance, the unrefactored <b>ITarget</b> is too broad and encompasses a wide
+    range of functionalities for the enemy targets.
+
+
+    If units in the game don''t
+    need all of the included methods, implementing the interface would require adding
+    unused or blank methods to those objects. This would violate interface segregation.'
+  - "The refactored solution breaks down the original <b>ITarget</b> into smaller,
+    focused interfaces:\r\n\r\n  \u2022<b>IDamageable</b> targets any object capable
+    of taking damage, focusing solely on damage-related interactions.\r\n\r\n  \u2022<b>IEffectTrigger</b>
+    triggers specific effects like particles, enhancing gameplay and interactivity"
+  - "  \u2022<b>IExplodable</b> handles an extra explosion effect when the object's
+    health reaches 0.\r\n\r\nThese targeted interfaces ensure that classes only implement
+    the relevant functionalities.\r\n\r\nSmaller, well-defined interfaces make the
+    codebase more understandable and easier to navigate.\r"
+  - "This approach favors <b>composition over inheritance</b>, leading to a more
+    decoupled and scalable game design. \r\n\r\nDevelopers can then quickly identify
+    which components are responsible for which functionalities \u2014 and can update
+    or extend them."
+  m_CurrentIndex: 0
+  m_AdditionalText: 'Aim with the mouse. <b>Click</b> to shoot. Press <b>R</b> to
+    reset the scene. '
+  m_FooterText: 

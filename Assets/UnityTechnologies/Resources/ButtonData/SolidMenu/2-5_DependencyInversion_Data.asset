@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83a669e8e5154064a7bd8c274e3edb3, type: 3}
+  m_Name: 2-5_DependencyInversion_Data
+  m_EditorClassIdentifier: 
+  m_Note: ButtonData for opening the Dependency Inversion scene.
+  m_ElementID: menu-button__dependency-inversion
+  m_LabelText: Dependency inversion
+  m_ButtonActionSO: {fileID: 11400000, guid: 4bf477caba0626144969364af57ab0ae, type: 2}
+  m_Description: The <b>Dependency Inversion Principle (DIP)</b> states that high-level
+    modules should not depend on low-level modules, but both should depend on abstractions.
+  m_Image: {fileID: 21300000, guid: a52c4e33f3bc01d47a6c027ab0392497, type: 3}

@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d409ea383417324bafa2ad8119d2992, type: 3}
+  m_Name: 2_ObjectPool_Data
+  m_EditorClassIdentifier: 
+  m_Title: Object pool
+  m_TextPages:
+  - 'This demo shows a gun and projectile system that uses the <b>object pool</b>
+    pattern to manage resources.
+
+
+    This approach optimizes performance by reusing
+    existing instances instead of frequently instantiating and destroying them. The
+    pool can optionally expand to a predefined maximum size.'
+  - 'Use the <b>UnityEngine.Pool</b> namespace (available in Unity 2021 LTS and later)
+    to simplifiy object pooling.
+
+
+    This includes classes like <b>ObjectPool<T></b>
+    for efficient object reuse.'
+  - 'The gun component initializes an object pool for the projectiles with options
+    for capacity and maximum size, ensuring efficient memory management.
+
+
+    On
+    player input, the gun retrieves a projectile from the pool, positions it at the
+    muzzle, and applies force to simulate shooting.'
+  - 'Each projectile is automatically deactivated and reset after a set delay. Then,
+    they are returned to the pool.
+
+
+    Projectiles are only active during their
+    intended use. This pattern reduces overhead from object creation and destruction,
+    improving performance during intense gameplay.'
+  m_CurrentIndex: 0
+  m_AdditionalText: Aim with the mouse. Click to fire.
+  m_FooterText: 

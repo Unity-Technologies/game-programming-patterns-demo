@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d409ea383417324bafa2ad8119d2992, type: 3}
+  m_Name: 7_ModelViewViewModel_Data
+  m_EditorClassIdentifier: 
+  m_Title: MVVM
+  m_TextPages:
+  - "The <b>Model-View-ViewModel (MVVM)</b> architectural pattern organizes the application
+    logic into three components: \r\n\r\n\u2022The <b>Model</b>, which holds the
+    data and/or business logic\n\r\n\u2022The <b>View</b>, or user interface\n\r\n\u2022The
+    <b>ViewModel</b>, a mediator that binds the two other parts.\n"
+  - "This <b>separation of concerns</b> leads to more maintainable and testable code.
+    \n\nMVVM builds on the MVP pattern by adding runtime <b>data binding</b>. \n\nThis
+    simplifies how UI elements update in response to changes in the underlying data.\r\n"
+  - "Consider a health bar user interface. A data binder syncs the UI with its data
+    source. Applying damage or healing to the health data updates the UI automatically.\n\nHere,
+    the health bar's text labels and colors change according to the dynamic health
+    value at runtime. \n"
+  - 'The <b>HealthModel</b> contains converters which translate integer values into
+    corresponding strings and colors. The View itself has no knowledge of how the
+    actual string or color is determined.
+
+
+    Changes to the data in the Model
+    do not affect the View directly and vice versa, making the code more modular
+    according to SOLID principles.'
+  m_CurrentIndex: 0
+  m_AdditionalText: <b>Click</b> the target to apply damage. <b>Reset</b> to restore
+    health.
+  m_FooterText: 

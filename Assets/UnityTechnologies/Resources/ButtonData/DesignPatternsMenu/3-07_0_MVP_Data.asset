@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83a669e8e5154064a7bd8c274e3edb3, type: 3}
+  m_Name: 3-07_0_MVP_Data
+  m_EditorClassIdentifier: 
+  m_Note: Opens the ModelViewPresenter scene.
+  m_ElementID: menu-button__mvp
+  m_LabelText: MVP
+  m_ButtonActionSO: {fileID: 11400000, guid: a47630d134d162a42a622b40bb17b8af, type: 2}
+  m_Description: The <b>MVP (model-view-presenter)</b> pattern separates the game's
+    data <b>(model)</b>, the user interface  <b>(view)</b>, and the logic that mediates
+    between the model and view <b>(presenter)</b>.
+  m_Image: {fileID: 21300000, guid: 334d88c254cff9f49bdd73956a8134af, type: 3}

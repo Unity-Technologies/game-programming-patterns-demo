@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d409ea383417324bafa2ad8119d2992, type: 3}
+  m_Name: 3_Singleton_Data
+  m_EditorClassIdentifier: 
+  m_Title: Singleton
+  m_TextPages:
+  - "The <b>singleton pattern</b> guarantees a class has just one globally accessible
+    instance. The pattern ensures a single, static instance by eliminating duplicates.\n\nThe
+    AudioManager in this scene is a generic <b>Singleton</b>. \n\nClick the mouse
+    to play the sound."
+  - "Use the <b>AudioManager.Instance</b> to access a centralized manager for playing
+    sound effects.\r\n\r\nThe singleton pattern ensures that any duplicates are removed
+    from the scene. This can help manage global access to a resource \u2014 in this
+    case, an audio system."
+  - "Click the screen to play a specific AudioClip with custom variations using the
+    <b>AudioManager.Instance</b>.\n\nSingletons can be useful for maintaining performance
+    and consistency for central managers or resources. \n\nA <b>PersistentSingleton</b>
+    works across different scenes, maintaining state and behavior throughout various
+    parts of an application."
+  m_CurrentIndex: 0
+  m_AdditionalText: Enable the singleton to remove duplicates.
+  m_FooterText: 'Press <b>R</b> to reset the scene. '

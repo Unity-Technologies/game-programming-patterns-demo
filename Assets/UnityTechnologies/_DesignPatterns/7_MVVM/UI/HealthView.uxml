@@ -1,0 +1,24 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UnityTechnologies/_DesignPatterns/7_MVVM/UI/HealthBar.uss?fileID=7433441132597879392&amp;guid=06a90fe64cdfac041af01e5206e789e6&amp;type=3#HealthBar" />
+    <engine:ProgressBar value="46.9" title="my-progress" name="health-bar" class="health-bar" style="background-color: rgba(224, 130, 130, 0);">
+        <engine:Label text="status: " name="health-bar__status-label" class="health-bar__status-label status-label">
+            <Bindings>
+                <engine:DataBinding property="text" data-source-path="CurrentHealth" data-source="project://database/Assets/MVVM/Data/HealthData.asset?fileID=11400000&amp;guid=55ce2fc17afc2f847889c6ee80a12fe4&amp;type=2#HealthData" binding-mode="ToTarget" source-to-ui-converters="Int to HealthBar" />
+                <engine:DataBinding property="style.color" data-source-path="CurrentHealth" data-source="project://database/Assets/MVVM/Data/HealthData.asset?fileID=11400000&amp;guid=55ce2fc17afc2f847889c6ee80a12fe4&amp;type=2#HealthData" binding-mode="ToTarget" source-to-ui-converters="Int to HealthBar" />
+            </Bindings>
+        </engine:Label>
+        <engine:Label text="100" name="health-bar__value-label" class="value-label">
+            <Bindings>
+                <engine:DataBinding property="text" data-source-path="CurrentHealth" data-source="project://database/Assets/MVVM/Data/HealthData.asset?fileID=11400000&amp;guid=55ce2fc17afc2f847889c6ee80a12fe4&amp;type=2#HealthData" binding-mode="ToTarget" />
+            </Bindings>
+        </engine:Label>
+        <Bindings>
+            <engine:DataBinding property="value" data-source-path="CurrentHealth" data-source="project://database/Assets/MVVM/TargetHealth.asset?fileID=11400000&amp;guid=55ce2fc17afc2f847889c6ee80a12fe4&amp;type=2#TargetHealth" binding-mode="ToTarget" />
+            <engine:DataBinding property="title" data-source-path="LabelName" data-source="project://database/Assets/MVVM/TargetHealth.asset?fileID=11400000&amp;guid=55ce2fc17afc2f847889c6ee80a12fe4&amp;type=2#TargetHealth" binding-mode="ToTarget" />
+        </Bindings>
+    </engine:ProgressBar>
+    <engine:Button text="&#10;" name="reset-button" data-source-type="DesignPatterns.MVVM.HealthViewModel, Assembly-CSharp" class="reset-button">
+        <engine:VisualElement name="reset-button__icon" style="flex-grow: 1; position: absolute; width: 70%; height: 70%; bottom: 10%; background-image: url(&quot;project://database/Assets/UnityTechnologies/_DesignPatterns/7_MVP/Textures/HealthIcon.png?fileID=21300000&amp;guid=4325c0feb824443e1a6b094bbaf98353&amp;type=3#HealthIcon&quot;);" />
+        <engine:Label text="Reset" name="reset-button__label" class="reset-button-label" />
+    </engine:Button>
+</engine:UXML>

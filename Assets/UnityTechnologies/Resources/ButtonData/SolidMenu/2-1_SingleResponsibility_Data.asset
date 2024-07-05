@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83a669e8e5154064a7bd8c274e3edb3, type: 3}
+  m_Name: 2-1_SingleResponsibility_Data
+  m_EditorClassIdentifier: 
+  m_Note: ButtonData for opening the Single Responsibility scene.
+  m_ElementID: menu-button__single-responsbility
+  m_LabelText: Single-responsibility
+  m_ButtonActionSO: {fileID: 11400000, guid: eb88f2030d7d41947a2ec4fa4fee9e1b, type: 2}
+  m_Description: The <b>Single Responsibility Principle (SRP)</b> says that a class
+    should have only one reason to change, meaning it should only have one job or
+    responsibility.
+  m_Image: {fileID: 21300000, guid: 9136454964afdba418e6481ae9278899, type: 3}

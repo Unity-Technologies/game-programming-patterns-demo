@@ -1,0 +1,8 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <Style src="project://database/Assets/Resources/button__template.uss?fileID=7433441132597879392&amp;guid=c5452a19b823cf742a43f5b42d22bc88&amp;type=3#button__template" />
+    <ui:VisualElement name="menu-button__container" picking-mode="Ignore" style="width: 100%; height: 100%; position: absolute;">
+        <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="menu-button__button" class="menu-button">
+            <ui:VisualElement name="menu-button__icon" picking-mode="Ignore" class="menu-button" />
+        </ui:Button>
+    </ui:VisualElement>
+</ui:UXML>

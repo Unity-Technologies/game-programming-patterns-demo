@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d409ea383417324bafa2ad8119d2992, type: 3}
+  m_Name: 1_SingleResponsibilityText_Data
+  m_EditorClassIdentifier: 
+  m_Title: Single-responsibility
+  m_TextPages:
+  - 'The <b>single-responsibility principle</b> asserts that a class should only
+    have one job or function. This principle encourages modular, maintainable code
+    through the use of smaller, focused classes.
+
+
+    Single-responsibility ensures
+    each class has a distinct, well-defined role, streamlining code organization
+    and management.'
+  - 'Consider a typical Player class. A non-SOLID approach is to infuse this class
+    with various tasks, like movement control, input, and other effects.
+
+
+    While
+    initially manageable, this approach becomes problematic as the project expands.'
+  - 'Open the <b>UnrefactoredPlayer</b> class in the project and compare with the
+    <b>Player</b> class, which is refactored using SOLID principles.
+
+
+    Though
+    functionally equivalent to a refactored version, the original class struggles
+    with scalability and maintenance.
+
+'
+  - 'In this demo, the new Player class then splits functionality into several smaller
+    classes: PlayerMovement, PlayerInput, PlayerAudio, and PlayerFX.
+
+
+    Each class''s
+    name reflects its specific function, fostering a more organized and intuitive
+    codebase.'
+  m_CurrentIndex: 0
+  m_AdditionalText: 'Use the <b>WASD</b> keys to move the player. '
+  m_FooterText: Use the <b>T</b> key to toggle Prefabs.

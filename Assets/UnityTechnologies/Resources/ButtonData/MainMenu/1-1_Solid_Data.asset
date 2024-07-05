@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83a669e8e5154064a7bd8c274e3edb3, type: 3}
+  m_Name: 1-1_Solid_Data
+  m_EditorClassIdentifier: 
+  m_Note: Opens the SOLID principles demo view.
+  m_ElementID: menu-button__solid
+  m_LabelText: SOLID principles
+  m_ButtonActionSO: {fileID: 11400000, guid: e81c4935bb6d1ef4f85cb6d1f77e1f46, type: 2}
+  m_Description: SOLID is a mnemonic acronym for five basic rules to keep in mind
+    while coding, to ensure that object-oriented designs remain flexible and maintainable.
+  m_Image: {fileID: 21300000, guid: 45967672add44bb41acf7677f23192b7, type: 3}

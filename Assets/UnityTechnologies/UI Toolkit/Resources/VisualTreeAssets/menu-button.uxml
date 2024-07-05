@@ -1,0 +1,5 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:Button text="Button" parse-escape-sequences="true" display-tooltip-when-elided="true" name="menu-button" style="flex-basis: 100%; flex-shrink: 1; margin-bottom: 2%; margin-top: 2%; margin-right: 0; -unity-font-style: bold; font-size: 32px; -unity-text-align: middle-right; height: 100%; width: 100%; padding-left: 10%; padding-right: 2%; padding-top: 2%; padding-bottom: 2%; margin-left: 0;">
+        <ui:VisualElement name="menu-button-icon" style="width: 8%; height: 100%; flex-shrink: 0; background-color: rgb(17, 164, 255);" />
+    </ui:Button>
+</ui:UXML>

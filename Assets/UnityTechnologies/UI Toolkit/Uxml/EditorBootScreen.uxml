@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UnityTechnologies/UI%20Toolkit/Uss/MainMenu.uss?fileID=7433441132597879392&amp;guid=044165dc8a223ca4ca6e114a694c8368&amp;type=3#MainMenu" />
+    <Style src="project://database/Assets/UnityTechnologies/Resources/UI/button__template.uss?fileID=7433441132597879392&amp;guid=c5452a19b823cf742a43f5b42d22bc88&amp;type=3#button__template" />
+    <ui:VisualElement name="main__screen-container" picking-mode="Ignore" class="screen-container" style="-unity-background-image-tint-color: rgba(255, 255, 255, 0.28);">
+        <ui:VisualElement name="left__container" picking-mode="Ignore" class="left-container">
+            <ui:VisualElement name="left__header" picking-mode="Ignore" class="left-header" style="display: flex;">
+                <ui:Label tabindex="-1" text="LEVEL UP YOUR CODE" parse-escape-sequences="true" display-tooltip-when-elided="true" name="left__header-title" class="header-text" style="display: flex; -unity-font-definition: url(&quot;project://database/Assets/_ThirdParty/Fonts/Inter/Inter-VariableFont_slnt,wght%20SDF.asset?fileID=11400000&amp;guid=574267e408db03e47a7313ce3e2c50e4&amp;type=2#Inter-VariableFont_slnt,wght SDF&quot;); -unity-font-style: bold;" />
+                <ui:Label tabindex="-1" text="WITH GAME PROGRAMMING PATTERNS" parse-escape-sequences="true" display-tooltip-when-elided="true" name="left__header-subheading" class="subheader-text" style="display: flex;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="message__container" picking-mode="Ignore" class="button-container" style="flex-basis: 45%;">
+                <ui:Label text="PRESS PLAY TO BEGIN" name="message__label" class="blink" style="width: 80%; height: 100%; -unity-font-definition: url(&quot;project://database/Assets/_ThirdParty/Fonts/Inter/Inter-VariableFont_slnt,wght%20SDF.asset?fileID=11400000&amp;guid=574267e408db03e47a7313ce3e2c50e4&amp;type=2#Inter-VariableFont_slnt,wght SDF&quot;); color: rgb(255, 255, 255); font-size: 55px; white-space: normal; -unity-text-align: middle-right; -unity-font-style: bold;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="right__container" picking-mode="Ignore" class="right-container">
+            <ui:VisualElement name="info-graphic__template" template="info-graphic__template" style="width: 100%; height: 100%;">
+                <ui:VisualElement name="info-graphic__container" picking-mode="Ignore" style="flex-grow: 1; margin-top: 10%; margin-right: 10%; margin-bottom: 10%; margin-left: 10%;">
+                    <ui:VisualElement name="info-graphic__image" picking-mode="Ignore" style="flex-grow: 0; flex-basis: 75%; flex-shrink: 0; -unity-background-scale-mode: scale-to-fit; -unity-text-align: lower-center; justify-content: flex-end; align-items: center; background-image: url(&quot;project://database/Assets/UnityTechnologies/Art/Environments/Textures/Sprites/DesignPatternsCloseGraphic.png?fileID=2800000&amp;guid=40e5087c8c2ce1441b9727578c7b7129&amp;type=3#DesignPatternsCloseGraphic&quot;);">
+                        <ui:Label tabindex="-1" text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud" parse-escape-sequences="true" display-tooltip-when-elided="true" name="info-graphic__text" picking-mode="Ignore" style="font-size: 33px; flex-wrap: wrap; white-space: normal; color: rgb(209, 209, 209); -unity-text-align: upper-left; width: 86%; height: 30%; top: 35%; display: none;" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

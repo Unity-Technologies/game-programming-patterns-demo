@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7d73ce91496ac24989e83a801bd60d2, type: 3}
+  m_Name: FirstAidAbility
+  m_EditorClassIdentifier: 
+  m_AbilityName: First Aid
+  m_ButtonIcon: {fileID: 21300000, guid: f9d9e602e0b715d4eb7f42b319592a81, type: 3}
+  m_ParticleSystem: {fileID: 1579810419922949136, guid: 7d51a4877183029419777a09c8287048, type: 3}
+  m_AudioClip: {fileID: 8300000, guid: e380f7fc2809343ff857068d46c0e539, type: 3}

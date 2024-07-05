@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83a669e8e5154064a7bd8c274e3edb3, type: 3}
+  m_Name: 4-4_QuizU_Data
+  m_EditorClassIdentifier: 
+  m_Note: ButtonData to open URL for QuizU.
+  m_ElementID: resources__quiz-u
+  m_LabelText: QuizU
+  m_ButtonActionSO: {fileID: 11400000, guid: 0a6b8fefdcfda2341825fffec4ce1eb4, type: 2}
+  m_Description: '<b>QuizU</b> is an interactive quiz application that demonstrates
+    UI Toolkit components and design patterns. '
+  m_Image: {fileID: 21300000, guid: bc685030e5ddb8a4e96360a44444124d, type: 3}

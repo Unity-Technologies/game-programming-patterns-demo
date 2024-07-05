@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d409ea383417324bafa2ad8119d2992, type: 3}
+  m_Name: 1_Factory_Data
+  m_EditorClassIdentifier: 
+  m_Title: Factory
+  m_TextPages:
+  - "The <b>factory pattern</b> creates different products that share a common interface.
+    Each product is a different class with its own construction logic. \r\n\r\nUsing
+    the same interface, <b>ProductA</b> spawns particles, while <b>ProductB</b> plays
+    a sound."
+  - "The pattern provides a framework for creating instances of various classes,
+    each with its own specific logic and behaviors, under a unified interface. \r\n\r\nHere,
+    two concrete factories, <b>ConcreteFactoryA</b> and <b>ConcreteFactoryB</b>,
+    each create their own products."
+  - "Each factory inherits from a base <b>Factory</b> class with a common <b>GetProduct</b>
+    method that takes a Vector3 as a parameter.\n\nEach product also handles its
+    own initialization logic to position themselves in the scene or trigger some
+    behavior.\r\n\r"
+  - 'Different objects can implement their own creation logic while sharing a common
+    interface to instantiating them into the scene.
+
+
+    For example, you can add
+    a <b>ProductC</b> with unique behaviors that does not affect the code for the
+    previous products.'
+  m_CurrentIndex: 1
+  m_AdditionalText: Click to generate a random product.
+  m_FooterText: 'Press <b>R</b> to reset the scene. '

@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d409ea383417324bafa2ad8119d2992, type: 3}
+  m_Name: 10_DirtyFlagText_Data
+  m_EditorClassIdentifier: 
+  m_Title: Dirty flag
+  m_TextPages:
+  - "The <b>dirty flag</b> is an optimization pattern. It works by marking a piece
+    of data or a system state as \"dirty\" when it has changed and needs to be updated
+    or reprocessed. \n\nThis flag allows the system to bypass redundant operations
+    and focus computational resources where needed."
+  - "The pattern can reduce the number of calculations or updates performed in each
+    frame. For instance, in a game with complex scenes, not all objects need to be
+    updated or redrawn every frame. \r\n\r\nOnly objects whose state has changed
+    are processed. This conserves resources and can help create smoother gameplay."
+  - "This simplified example approximates how you could manage scene content in a
+    large game. The game world is divided into sectors, with each sector loading
+    or unloading its content based on the player's proximity. \r\n\r\nSectors mark
+    themselves as \"dirty\" when the player approaches. Each sector resets to \"clean\"
+    once the loading is complete or the player moves away."
+  - 'This approach can potentially improve performance if your game world is large
+    and can be sectioned into smaller scenes.
+
+
+    Let the pattern help you minimize
+    unnecessary processing and memory usage. Then, create complex and resource-intensive
+    games while maintaining performance.'
+  m_CurrentIndex: 0
+  m_AdditionalText: 'Use the <b>WASD</b> keys to move. '
+  m_FooterText: The level updates based on player position.

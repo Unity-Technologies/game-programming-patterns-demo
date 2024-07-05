@@ -1,0 +1,149 @@
+.screen-container {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    flex-direction: row;
+    background-color: rgb(1, 22, 36);
+    top: 0;
+    left: 0;
+    background-image: url("project://database/Assets/UnityTechnologies/Art/Environments/Textures/Sprites/DesignPatternsGraphic.png?fileID=21300000&guid=234c13db5689c3a44b361f9203a28d0f&type=3#DesignPatternsGraphic");
+    -unity-background-scale-mode: scale-and-crop;
+    -unity-background-image-tint-color: rgba(255, 255, 255, 0.31);
+    border-left-color: rgba(0, 0, 0, 0.03);
+    border-right-color: rgba(0, 0, 0, 0.03);
+    border-top-color: rgba(0, 0, 0, 0.03);
+    border-bottom-color: rgba(0, 0, 0, 0.03);
+    border-top-width: 0;
+    border-right-width: 0;
+    border-bottom-width: 0;
+    border-left-width: 0;
+}
+
+.screen-visible {
+    transition: left 0.25s ease;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease-in-out;
+}
+
+.screen-hidden {
+    transition: left 0.25s ease;
+    transition-property: all;
+    opacity: 0;
+    transition-duration: 0.5s;
+    bottom: -100%;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.1s;
+}
+
+.left-container {
+    flex-grow: 0;
+    flex-basis: 60%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    flex-shrink: 0;
+    padding-right: 4%;
+}
+
+.left-header {
+    flex-grow: 0;
+    flex-basis: 35%;
+    flex-shrink: 0;
+    -unity-text-align: middle-left;
+    justify-content: center;
+    margin-bottom: 3%;
+    align-items: flex-end;
+}
+
+.right-container {
+    flex-grow: 0;
+    flex-basis: 40%;
+    width: 50%;
+    background-color: rgb(4, 60, 93);
+    flex-shrink: 0;
+}
+
+.button-container {
+    flex-grow: 0;
+    flex-basis: 74%;
+    flex-shrink: 0;
+    -unity-text-align: middle-left;
+    justify-content: flex-start;
+    padding-left: 20%;
+    flex-wrap: wrap;
+    left: -4%;
+    top: 1%;
+    align-items: flex-end;
+}
+
+.header-text {
+    font-size: 75px;
+    -unity-text-align: lower-right;
+    -unity-font-style: normal;
+    -unity-font-definition: url("project://database/Assets/_ThirdParty/Fonts/Roboto/Roboto-Black%20SDF.asset?fileID=11400000&guid=e74ebc05ab3564fb187648ced4e2c0fa&type=2#Roboto-Black SDF");
+    flex-basis: 64%;
+    color: rgb(255, 255, 255);
+    white-space: normal;
+}
+
+.subheader-text {
+    font-size: 53px;
+    -unity-text-align: upper-right;
+    -unity-font-style: normal;
+    -unity-font-definition: url("project://database/Assets/_ThirdParty/Fonts/Inter/Inter-VariableFont_slnt,wght%20SDF.asset?fileID=11400000&guid=574267e408db03e47a7313ce3e2c50e4&type=2#Inter-VariableFont_slnt,wght SDF");
+    flex-basis: 50%;
+    white-space: normal;
+    color: rgb(255, 255, 255);
+    width: 80%;
+}
+
+.menu-text {
+    flex-basis: 100%;
+    flex-shrink: 1;
+    margin-bottom: 2%;
+    margin-top: 2%;
+    margin-right: 0;
+    -unity-font-style: normal;
+    font-size: 53px;
+    -unity-text-align: middle-right;
+    height: 100%;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-left: 0;
+    background-color: rgba(188, 188, 188, 0);
+    -unity-font-definition: url("project://database/Assets/_ThirdParty/Fonts/Inter/Inter-VariableFont_slnt,wght%20SDF.asset?fileID=11400000&guid=574267e408db03e47a7313ce3e2c50e4&type=2#Inter-VariableFont_slnt,wght SDF");
+    align-self: flex-start;
+    color: rgb(255, 255, 255);
+}
+
+.info-graphic__container {
+    flex-grow: 1;
+    margin-top: 10%;
+    margin-right: 10%;
+    margin-bottom: 10%;
+    margin-left: 10%;
+}
+
+.info-graphic__image {
+    flex-grow: 0;
+    flex-basis: 60%;
+    flex-shrink: 0;
+    -unity-background-scale-mode: scale-to-fit;
+}
+
+.info-graphic__text {
+    flex-basis: 20%;
+    font-size: 37px;
+    margin-top: 5%;
+    flex-wrap: wrap;
+    white-space: normal;
+    color: rgb(255, 255, 255);
+}
+
+.blink {
+    opacity: 1;
+    transition-duration: 0.1s;
+}

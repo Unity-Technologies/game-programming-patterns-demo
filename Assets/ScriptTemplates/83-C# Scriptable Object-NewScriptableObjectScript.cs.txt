@@ -1,0 +1,15 @@
+using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
+
+
+#ROOTNAMESPACEBEGIN#
+namespace DesignPatterns
+{
+	[CreateAssetMenu(fileName = "#SCRIPTNAME#", menuName = "DesignPatterns/#SCRIPTNAME#")]
+	public class #SCRIPTNAME# : DescriptionSO
+	{
+	 
+	}
+}
+#ROOTNAMESPACEEND#

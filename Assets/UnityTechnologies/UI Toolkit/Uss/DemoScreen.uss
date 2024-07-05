@@ -1,0 +1,41 @@
+.next-last-button {
+    position: absolute;
+    left: 0;
+    font-size: 38px;
+    background-color: rgba(188, 188, 188, 0);
+    color: rgb(255, 255, 255);
+    -unity-font-style: bold;
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    transition-duration: 0.15s;
+    width: auto;
+    height: 100%;
+    min-width: 100px;
+}
+
+.next-last-button:hover {
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+    scale: 1.1 1.1;
+}
+
+.next-last-button:active {
+    background-color: rgba(86, 86, 86, 0.33);
+    color: rgb(86, 86, 86);
+    border-left-color: rgba(0, 0, 0, 0);
+    border-right-color: rgba(0, 0, 0, 0);
+    border-top-color: rgba(0, 0, 0, 0);
+    border-bottom-color: rgba(0, 0, 0, 0);
+}
+
+.page-counter {
+    left: auto;
+    transition-delay: 0.4s;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    letter-spacing: 20px;
+}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83a669e8e5154064a7bd8c274e3edb3, type: 3}
+  m_Name: 3-05_State_Data
+  m_EditorClassIdentifier: 
+  m_Note: Opens the State pattern scene.
+  m_ElementID: menu-button__state
+  m_LabelText: State
+  m_ButtonActionSO: {fileID: 11400000, guid: c5172c123d1996a4a80d44f2a2b86907, type: 2}
+  m_Description: 'The <b>state pattern</b> allows an object to alter its behavior
+    when its internal state changes. The context object switches between different
+    state objects, allowing for seamless transitions between different states. '
+  m_Image: {fileID: 21300000, guid: 069300600ca46484ba3ae64511d74d9f, type: 3}

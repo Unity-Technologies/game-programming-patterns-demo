@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d409ea383417324bafa2ad8119d2992, type: 3}
+  m_Name: 5_DependencyInversionText_Data
+  m_EditorClassIdentifier: 
+  m_Title: Dependency inversion
+  m_TextPages:
+  - "The <b>dependency inversion principle</b> has two key parts:\r\n\r\n  \u2022High-level
+    modules do not depend on low-level modules. Both depend on abstractions.\r\n\r\n 
+    \u2022Abstractions shouldn't rely on details; instead, details should depend
+    on abstractions.\r"
+  - "To illustrate this, consider a system with a <b>Door</b>, <b>Trap</b>, and <b>Switch</b>.
+    In this case, the Switch class is a high-level module that controls other objects
+    (the Door or Trap). \r\n\r\nInstead of depending on the specific implementations
+    of low-level modules, dependency inversion says to use an interface. In the example,
+    this is <b>ISwitchable</b>."
+  - 'The Door and Trap classes implement this ISwitchable interface, defining actions
+    for turning on (Activate) and off (Deactivate), but they don''t rely on specific
+    implementations.
+
+
+    The Switch class (a high-level module) depends on the
+    ISwitchable interface (an abstraction) rather than directly on low-level modules
+    (Door and Trap).'
+  - "This approach decouples the Switch from specific details of Door or Trap, enhancing
+    flexibility and maintainability. \r\n\r\nChanges to Door or Trap won\u2019t necessitate
+    changes in Switch. \n\nNew ISwitchable objects (e.g. a light, sound or particle
+    effect, etc. ) can also be added without modifying the Switch class."
+  m_CurrentIndex: 0
+  m_AdditionalText: Click the <b>Switch</b> to operate the <b>Door</b> or <b>Trap</b>.
+  m_FooterText: 'Press <b>R</b> to reset the scene. '

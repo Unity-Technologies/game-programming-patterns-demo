@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83a669e8e5154064a7bd8c274e3edb3, type: 3}
+  m_Name: 3-06_Observer_Data
+  m_EditorClassIdentifier: 
+  m_Note: Opens the Observer pattern scene.
+  m_ElementID: menu-button__observer
+  m_LabelText: Observer
+  m_ButtonActionSO: {fileID: 11400000, guid: 43f95a16a88b45542887e0a1c2ef220a, type: 2}
+  m_Description: The <b>observer pattern</b> defines a dependency between objects
+    so that when one object changes its state, all its dependents are notified and
+    updated automatically.
+  m_Image: {fileID: 21300000, guid: 221424d85642d2d4a8d65a3bb172ccbc, type: 3}

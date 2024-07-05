@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI%20Toolkit/Uss/MainMenu.uss?fileID=7433441132597879392&amp;guid=044165dc8a223ca4ca6e114a694c8368&amp;type=3#MainMenu" />
+    <Style src="project://database/Assets/Resources/UI/button__template.uss?fileID=7433441132597879392&amp;guid=c5452a19b823cf742a43f5b42d22bc88&amp;type=3#button__template" />
+    <ui:VisualElement name="game-scene__screen-container" picking-mode="Ignore" style="width: 100%; height: 100%; position: absolute; flex-direction: row; background-color: rgba(161, 154, 154, 0); top: -1px; left: 2px;">
+        <ui:Button text="⟵BACK" parse-escape-sequences="true" display-tooltip-when-elided="true" name="back-button" class="menu-button" style="position: absolute; width: 220px; height: 120px; background-color: rgba(143, 122, 122, 0); -unity-font-definition: url(&apos;project://database/Assets/_ThirdParty/Fonts/Inter/Inter-VariableFont_slnt,wght%20SDF.asset?fileID=11400000&amp;guid=574267e408db03e47a7313ce3e2c50e4&amp;type=2#Inter-VariableFont_slnt,wght SDF&apos;); -unity-font-style: bold; font-size: 35px; flex-basis: 109%; align-items: center; -unity-text-align: middle-center; left: 2%; bottom: 0; color: rgb(255, 255, 255);" />
+    </ui:VisualElement>
+</ui:UXML>

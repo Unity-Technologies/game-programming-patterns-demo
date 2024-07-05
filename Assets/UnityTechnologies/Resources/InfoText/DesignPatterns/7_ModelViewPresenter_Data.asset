@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d409ea383417324bafa2ad8119d2992, type: 3}
+  m_Name: 7_ModelViewPresenter_Data
+  m_EditorClassIdentifier: 
+  m_Title: MVP
+  m_TextPages:
+  - "The <b>Model-View-Presenter (MVP)</b> architectural pattern organizes application
+    logic into:\r\n\r\n\u2022 The <b>Model</b>, which contains the data and/or business
+    logic\r\n\r\n\u2022 The <b>View</b>, or user interface\r\n\r\n\u2022 The <b>Presenter</b>,
+    a mediator that handles the logic for the view and synchronizes the data from
+    the model."
+  - 'MVP focuses on the explicit connection between the view and the presenter. Here,
+    the presenter is responsible for reacting to user inputs and updating the view.
+
+
+    This
+    separation of concerns enhances the maintainability and testability of code.'
+  - 'Consider a health bar in a game interface. In MVP, the presenter listens for
+    changes in the health data and updates the health bar in the view when changes
+    occur, such as damage taken or healing received.
+
+
+    Changes to the game''s
+    backend or the UI require updates through the presenter, facilitating a more
+    controlled flow of data and logic.'
+  m_CurrentIndex: 0
+  m_AdditionalText: <b>Click</b> the target to apply damage. <b>Reset</b> to restore
+    health.
+  m_FooterText: 

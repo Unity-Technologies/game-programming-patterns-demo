@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c83a669e8e5154064a7bd8c274e3edb3, type: 3}
+  m_Name: 4-5_BestPracticesGuides_Data
+  m_EditorClassIdentifier: 
+  m_Note: ButtonData to open URL for the Best Practice Guides.
+  m_ElementID: resources__best-practices-guides
+  m_LabelText: Best practice guides
+  m_ButtonActionSO: {fileID: 11400000, guid: 11402bf1498d2434e90652f49669174b, type: 2}
+  m_Description: These advanced best practice guides cover a wide range of topics
+    including art and design, graphics and rendering, performance optimization, and
+    scripting. Get in-depth knowledge and practical advice for Unity developers.
+  m_Image: {fileID: 21300000, guid: 93507bbbaed81fc4b9cec3225774e03e, type: 3}

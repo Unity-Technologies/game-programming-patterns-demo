@@ -1,0 +1,26 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="button__template" src="project://database/Assets/UnityTechnologies/Resources/UI/button__template.uxml?fileID=9197481963319205126&amp;guid=05ec02b1ad9b9174fa8b49af56145a61&amp;type=3#button__template" />
+    <Style src="project://database/Assets/UnityTechnologies/UI%20Toolkit/Uss/MainMenu.uss?fileID=7433441132597879392&amp;guid=044165dc8a223ca4ca6e114a694c8368&amp;type=3#MainMenu" />
+    <ui:VisualElement name="solid__screen-container" style="width: 100%; height: 100%; position: absolute; flex-direction: row; background-color: rgb(161, 154, 154); top: -1px; left: 2px;">
+        <ui:VisualElement name="left__container" class="left-container">
+            <ui:VisualElement name="header__container" class="left-header">
+                <ui:Label tabindex="-1" text="SOLID principles" parse-escape-sequences="true" display-tooltip-when-elided="true" name="header__title" class="header-text" />
+                <ui:Label tabindex="-1" text="With Game Programming Patterns" parse-escape-sequences="true" display-tooltip-when-elided="true" name="header__subheading" style="font-size: 63px; -unity-text-align: upper-right; -unity-font-style: normal; -unity-font-definition: url(&quot;project://database/Assets/_ThirdParty/Fonts/Inter/Inter-VariableFont_slnt,wght%20SDF.asset?fileID=11400000&amp;guid=574267e408db03e47a7313ce3e2c50e4&amp;type=2#Inter-VariableFont_slnt,wght SDF&quot;); flex-basis: 53%; white-space: normal; color: rgb(255, 255, 255); display: none;" />
+                <ui:Label tabindex="-1" text="SOLID is a mnemonic acronym for five basic rules to keep in mind while coding, to ensure that object-oriented designs remain flexible and maintainable." parse-escape-sequences="true" display-tooltip-when-elided="true" name="header__description" style="font-size: 38px; -unity-text-align: upper-right; -unity-font-style: normal; -unity-font-definition: url(&quot;project://database/Assets/_ThirdParty/Fonts/Inter/Inter-VariableFont_slnt,wght%20SDF.asset?fileID=11400000&amp;guid=574267e408db03e47a7313ce3e2c50e4&amp;type=2#Inter-VariableFont_slnt,wght SDF&quot;); flex-basis: 65%; white-space: normal; color: rgb(255, 255, 255); display: flex; padding-left: 8%;" />
+            </ui:VisualElement>
+            <ui:VisualElement name="button-container" class="button-container" style="flex-basis: 58%;">
+                <ui:Instance template="button__template" name="button__template" style="flex-basis: 20%; width: 100%;" />
+                <ui:Instance template="button__template" name="button__template" style="flex-basis: 20%; width: 100%;" />
+                <ui:Instance template="button__template" name="button__template" style="flex-basis: 20%; width: 100%;" />
+                <ui:Instance template="button__template" name="button__template" style="flex-basis: 20%; width: 100%;" />
+                <ui:Instance template="button__template" name="button__template" style="flex-basis: 20%; width: 100%;" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="right__container" class="right-container">
+            <ui:VisualElement name="info-graphic__container" class="info-graphic__container">
+                <ui:VisualElement name="info-graphic__image" class="info-graphic__image" style="background-color: rgba(3, 133, 255, 0);" />
+                <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="info-graphic__text" class="info-graphic__text" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

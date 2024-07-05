@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d409ea383417324bafa2ad8119d2992, type: 3}
+  m_Name: 5_State_Data
+  m_EditorClassIdentifier: 
+  m_Title: State
+  m_TextPages:
+  - "The <b>state pattern</b> allows an object to alter its behavior based on its
+    internal state. Each state specifies conditions under which transitions to other
+    states occur, making behaviors modular and organized. \n\nThe <b>state machine</b>
+    manages which state is currently active and handles the transitions between states."
+  - "Individual state classes, such as WalkState, JumpState, and IdleState, implement
+    the <b>IState</b> interface. \n\nThe interface ensures that each state has standardized
+    methods for entering, executing, and exiting."
+  - 'The <b>Execute</b> method holds state-specific logic that runs every frame.
+    <b>Enter</b> runs once when starting the state. <b>Exit</b> runs once when leaving
+    the state.
+
+
+    Use these methods to process gameplay logic (e.g. player movement)
+    and check for conditions to transition to other states.'
+  - "Other components can depend on the player's internal state and respond according
+    to state changes. \n\nIn this example, the <b>PlayerStateView</b> listens for
+    state changes in the state machine and then updates the the text label and mesh
+    color according to the active state."
+  m_CurrentIndex: 3
+  m_AdditionalText: <b>WASD</b> keys to move and <b>Spacebar</b> to jump.
+  m_FooterText: 'Press <b>R</b> to reset the scene. '

@@ -1,0 +1,12 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="MainMenu" src="project://database/Assets/UI%20Toolkit/Uxml/MainMenuScreen.uxml?fileID=9197481963319205126&amp;guid=ca5fbc4aeda85b748a810803b9f4b2c7&amp;type=3#MainMenuScreen" />
+    <ui:Template name="SOLIDScreen" src="project://database/Assets/UI%20Toolkit/Uxml/SOLIDScreen.uxml?fileID=9197481963319205126&amp;guid=4af3a2725956f4440a8c3c0d9ee59298&amp;type=3#SOLIDScreen" />
+    <ui:Template name="DesignPatternsScreen" src="project://database/Assets/UI%20Toolkit/Uxml/DesignPatternsScreen.uxml?fileID=9197481963319205126&amp;guid=0bf3de7e738a74f4ba635d0cef13f084&amp;type=3#DesignPatternsScreen" />
+    <ui:Template name="ResourcesScreen" src="project://database/Assets/UI%20Toolkit/Uxml/ResourcesScreen.uxml?fileID=9197481963319205126&amp;guid=f9ce4dfafb0567a4fae547dcd11c9b57&amp;type=3#ResourcesScreen" />
+    <ui:Template name="GameSceneScreen" src="project://database/Assets/UI%20Toolkit/Uxml/GameSceneScreen.uxml?fileID=9197481963319205126&amp;guid=1658a69aa44b41e4eb107390edcef71b&amp;type=3#GameSceneScreen" />
+    <ui:Instance template="MainMenu" name="MainMenu" picking-mode="Ignore" style="width: 100%; height: 100%; position: absolute;" />
+    <ui:Instance template="SOLIDScreen" name="SOLIDScreen" picking-mode="Ignore" style="position: absolute; width: 100%; height: 100%;" />
+    <ui:Instance template="DesignPatternsScreen" name="DesignPatternsScreen" picking-mode="Ignore" style="position: absolute; width: 100%; height: 100%;" />
+    <ui:Instance template="ResourcesScreen" name="ResourcesScreen" picking-mode="Ignore" style="position: absolute; width: 100%; height: 100%;" />
+    <ui:Instance template="GameSceneScreen" name="GameSceneScreen" picking-mode="Ignore" style="position: absolute; width: 100%; height: 100%;" />
+</ui:UXML>

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d409ea383417324bafa2ad8119d2992, type: 3}
+  m_Name: 2_OpenClosedText_Data
+  m_EditorClassIdentifier: 
+  m_Title: Open-closed
+  m_TextPages:
+  - 'The <b>open-closed principle</b> advocates that classes should be open for extension
+    but closed for modification. This means that we want to organize the code so
+    that adding new features has minimal impact to the existing codebase.
+
+
+    Imagine
+    you have game effects (e.g. spell, weapon explosion, etc.), each with unique
+    qualities. Suppose some effects work over a rectangular region and some work
+    within a circular radius.'
+  - "A non-SOLID approach is to create an <b>AreaOfEffectCalculator</b> class that
+    has methods corresponding to each type of effect. \r\n\r\nWhile this is fine
+    for a small number of effects, adding more effects to this AreaOfEffectCalculator
+    class can make the class grow big and unwieldy."
+  - 'For a SOLID approach, instead use abstract class (or an interface) to define
+    a general <b>AreaOfEffectBase</b> that includes its own AreaOfEffectCalculator.
+    Then each EffectShape can handle its own area of effect logic.
+
+
+    Following
+    an open-closed approach means that adding new effects should not affect the existing
+    ones.'
+  - 'Compared the unrefactored scripts versus the <b>AreaOfEffectBase</b> and its
+    subclasses.
+
+
+    The revised structure allows for easier extension and maintenance.
+    Adding more effects to the game does not require changing the previously created
+    classes.'
+  m_CurrentIndex: 0
+  m_AdditionalText: 'Use the <b>WASD</b> keys to move the player. '
+  m_FooterText: 

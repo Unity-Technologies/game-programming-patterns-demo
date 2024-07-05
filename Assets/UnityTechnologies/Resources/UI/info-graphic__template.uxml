@@ -1,0 +1,7 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" editor-extension-mode="False">
+    <ui:VisualElement name="info-graphic__container" picking-mode="Ignore" style="flex-grow: 1; margin-top: 10%; margin-right: 10%; margin-bottom: 10%; margin-left: 10%;">
+        <ui:VisualElement name="info-graphic__image" picking-mode="Ignore" style="flex-grow: 0; flex-basis: 75%; flex-shrink: 0; -unity-background-scale-mode: scale-to-fit; -unity-text-align: lower-center; justify-content: flex-end; align-items: center; background-image: url(&quot;project://database/Assets/UnityTechnologies/Art/Environments/Textures/Sprites/DesignPatternsCloseGraphic.png?fileID=2800000&amp;guid=40e5087c8c2ce1441b9727578c7b7129&amp;type=3#DesignPatternsCloseGraphic&quot;);">
+            <ui:Label tabindex="-1" parse-escape-sequences="true" display-tooltip-when-elided="true" name="info-graphic__text" picking-mode="Ignore" style="font-size: 33px; flex-wrap: wrap; white-space: normal; color: rgb(209, 209, 209); -unity-text-align: upper-left; width: 86%; height: 30%; top: 35%;" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
