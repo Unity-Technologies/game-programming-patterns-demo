@@ -303,7 +303,7 @@ namespace StyleSheetExample
     //       e.g. DoorOpened?.Invoke();
     // - UnityEngine.Objects need the explicit null comparison with the custom == operator
     //       e.g. if (MyDoor != null)
-    // - See https://blog.unity.com/technology/custom-operator-should-we-keep-it for more info
+    // - See https://unity.com/blog/engine-platform/custom-operator-should-we-keep-it for more info
 
 }
 
