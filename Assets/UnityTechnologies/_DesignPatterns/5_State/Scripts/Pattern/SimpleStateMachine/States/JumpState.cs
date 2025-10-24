@@ -34,11 +34,11 @@ namespace DesignPatterns.StatePattern
             {
                 if (Mathf.Abs(player.CharController.velocity.x) > 0.1f || Mathf.Abs(player.CharController.velocity.z) > 0.1f)
                 {
-                    player.PlayerStateMachine.TransitionTo(player.PlayerStateMachine.idleState);
+                    player.PlayerStateMachine.TransitionTo(player.PlayerStateMachine.walkState);
                 }
                 else
                 {
-                    player.PlayerStateMachine.TransitionTo(player.PlayerStateMachine.walkState);
+                    player.PlayerStateMachine.TransitionTo(player.PlayerStateMachine.idleState);
                 }
             }
         }
